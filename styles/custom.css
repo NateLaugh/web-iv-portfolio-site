@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+nav ul {
+	list-style-type: none; padding-top:40px;
+	}
+	
+nav {
+	background-color:#FFFFFF;
+	position:fixed;
+	font-family:"Century Gothic" Century Gothic, sans-serif;;
+	}
+
+nav li {
+	display: inline; padding:5px;
+	}
+	
+.social-1 {
+	  padding: 32px;
+	  margin-right: -55px;
+}
+
+#about {
+	padding-top:350px;
+	padding-bottom:350px;
+}
+
+h2 { font-size:38px; font-family:"Century Gothic-bold" Century Gothic, sans-serif;}
+
+img {
+	margin-top:15px;
+	margin-bottom:15px; 
+}
