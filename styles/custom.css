@@ -1,22 +1,31 @@
 @charset "UTF-8";
 /* CSS Document */
 nav ul {
-	list-style-type: none; padding-top:40px;
+	list-style-type: none; 
+	padding:5px;
+	margin-top: 20px;
+	width:100%;
 	}
 	
 nav {
-	background-color:#FFFFFF;
+	background-color:white;
 	position:fixed;
 	font-family:"Century Gothic" Century Gothic, sans-serif;;
+	width:100%;
+	z-index:100;
 	}
 
 nav li {
-	display: inline; padding:5px;
+	display: inline; padding: 5px;
+	width:100%;
 	}
 	
 .social-1 {
-	  padding: 32px;
-	  margin-right: -55px;
+	  padding-right: 43px;
+	  padding-left: 43px;
+	  padding-top: 43px;
+	  margin-right: -60px;
+	  margin-top: -23px;
 }
 
 #about {
@@ -29,4 +38,5 @@ h2 { font-size:38px; font-family:"Century Gothic-bold" Century Gothic, sans-seri
 img {
 	margin-top:15px;
 	margin-bottom:15px; 
+	width:100%
 }
