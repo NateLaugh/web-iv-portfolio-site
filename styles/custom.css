@@ -3,40 +3,54 @@
 nav ul {
 	list-style-type: none; 
 	padding:5px;
-	margin-top: 20px;
+	margin-top: 15px;
 	width:100%;
 	}
 	
 nav {
 	background-color:white;
 	position:fixed;
-	font-family:"Century Gothic" Century Gothic, sans-serif;;
+	font-family:"Century Gothic" Century Gothic, sans-serif;
 	width:100%;
 	z-index:100;
 	}
 
 nav li {
-	display: inline; padding: 5px;
+	display: inline; padding: 10px;
 	width:100%;
 	}
 	
 .social-1 {
-	  padding-right: 43px;
-	  padding-left: 43px;
-	  padding-top: 43px;
-	  margin-right: -60px;
-	  margin-top: -23px;
-}
+	margin-top:17px;
+	}
 
 #about {
 	padding-top:350px;
 	padding-bottom:350px;
-}
-
-h2 { font-size:38px; font-family:"Century Gothic-bold" Century Gothic, sans-serif;}
+	}
 
 img {
 	margin-top:15px;
 	margin-bottom:15px; 
-	width:100%
-}
+	width:100%;
+	}
+	
+.project-1 {
+	background: url('/path/to/myImage.png') bottom;
+	}
+
+.project-1:hover {
+	background-position: 0 0;
+	}
+
+.project-title {
+	margin-top: 140px;
+	font-size: 43px;
+	font-family:"Century Gothic" Century Gothic, sans-serif;
+	font-weight: bold;
+	margin-bottom:90px;
+	}
+	
+h2 {
+	font-size: 32px;
+	}
