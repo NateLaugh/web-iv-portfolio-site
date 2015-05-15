@@ -9,55 +9,62 @@
    </head>
    <body>
       <header>
-          <!-- Mobile NAVIGATION -->
-        <!-- <nav id="menu">
-            <a href="#menu" class="menu-link"></a>
-            <ul>
-               <span><a href="#">Title</a></span>
-               <li><a href="#">Home</a></li>
-               <li><a href="#">About</a></li>
-               <li><a href="#">Contact</a></li>
-               <li><a href="#">Blog</a></li>
-            </ul>
-         </nav>-->
-         <!-- Mobile NAVIGATION -->
-         <nav>
-            <div class="row visible-for-medium-up hidden-for-small-only">
-            <div class="medium-4 medium-offset-6 columns">
-               <ul>
-                  <li><a href="../index.html">HOME</a></li>
-                  <li><a href="../index.html">WORK</a></li>
-                  <li><a href="../index.html">ABOUT</a></li>
-                  <li><a href="../index.html">CONTACT</a></li>
-               </ul>
-            </div>
+         <!-- TABLET NAV -->
+         <nav class="tablet visible-for--only hidden-for-large hidden-for-small">
             <div class="row">
-               <div class="social-l small-2 columns">
-                  <a href="https://www.facebook.com/"><img src="../images/social-1.svg" class="social-1 columns small-4" alt="facebook icon"></a>
-                  <a href="https://twitter.com/?lang=en"><img src="../images/social-2.svg" class="social-1 columns small-4" alt="twitter icon"></a>
-                  <a href="https://instagram.com/"><img src="../images/social-3.svg" class="social-1 columns small-4 end" alt="instagram icon"></a>
+               <div class="medium-5 medium-offset-5 columns">
+                  <ul>
+                     <li><a href="../index.html">HOME</a></li>
+                     <li><a href="../index.html">WORK</a></li>
+                     <li><a href="../index.html">ABOUT</a></li>
+                     <li><a href="../index.html">CONTACT</a></li>
+                  </ul>
+               </div>
+               <div class="row">
+                  <div class="social-l medium-2 columns">
+                     <a href="https://www.facebook.com/"><img src="../images/social-1.svg" class="social-1 columns small-4" alt="facebook icon"></a>
+                     <a href="https://twitter.com/?lang=en"><img src="../images/social-2.svg" class="social-1 columns small-4" alt="twitter icon"></a>
+                     <a href="https://instagram.com/"><img src="../images/social-3.svg" class="social-1 columns small-4 end" alt="instagram icon"></a>
+                  </div>
                </div>
             </div>
+         </nav>
+         <!-- TABLET NAV -->
+         <nav>
+            <div class="row visible-for-large-only hidden-for-small-only">
+               <div class="medium-4 medium-offset-6 columns">
+                  <ul>
+                     <li><a href="../index.html">HOME</a></li>
+                     <li><a href="../index.html">WORK</a></li>
+                     <li><a href="../index.html">ABOUT</a></li>
+                     <li><a href="../index.html">CONTACT</a></li>
+                  </ul>
+               </div>
+               <div class="row">
+                  <div class="social-l small-2 columns">
+                     <a href="https://www.facebook.com/"><img src="../images/social-1.svg" class="social-1 columns small-4" alt="facebook icon"></a>
+                     <a href="https://twitter.com/?lang=en"><img src="../images/social-2.svg" class="social-1 columns small-4" alt="twitter icon"></a>
+                     <a href="https://instagram.com/"><img src="../images/social-3.svg" class="social-1 columns small-4 end" alt="instagram icon"></a>
+                  </div>
+               </div>
             </div>
          </nav>
       </header>
       <div class="row">
-         <div class="small-7 small-offset-3 columns">
+         <div class="small-10 small-offset-2">
             <h2 class="project-title">STONE-FORGE KNIVES</h2>
          </div>
       </div>
-      <div class="row">
-         <img class="large-12 columns" src="http://placehold.it/250/9a8c6d/000000" alt="project-1">
+      <div class="project-images row">
+         <img class="large-12 columns" src="http://placehold.it/250/000/000000" alt="project-1">
       </div>
       <div class="row">
-         <img class="large-3 columns" src="http://placehold.it/250x545/9a8c6d/000000" alt="project-1">
-         <img class="large-9 columns" src="http://placehold.it/150x100/9a8c6d/000000" alt="project-1">
+         <img class="large-3 columns" src="http://placehold.it/250x532/000/000000" alt="project-1">
+         <img class="large-9 columns" src="http://placehold.it/150x100/000/000000" alt="project-1">
       </div>
-      <div class="large-5 large-offset-4  columns">
-         <h3>STONE FORGE KNIVES</h3>
-      </div>
-      <div class="row">
-         <div class="large-10 large-offset-1 columns">
+      <div class="row project-info">
+         <div class="large-8 large-offset-2 columns">
+            <h3>STONE FORGE KNIVES</h3>
             <p>Product: Ad-Campaign, 3 print, environmental, social media
                Client: stone forge knives
                Target Audience: ametur and professional cullinary cooks looking for at home classy knife.
@@ -65,9 +72,13 @@
             </p>
          </div>
       </div>
-      <div class="row">
+      <div class="row visible-for-medium-up hidden-for-small-only">
          <a href="project-annual-report.html" class="small-3 columns"><img src="../images/previous-button-01-01.svg" alt="next project button"></a>
          <a href="project-tipsys-brand.html" class="small-3 columns"><img src="../images/next-button-01.svg" alt="previous project button"></a>
+      </div>
+      <div class="row visible-for-small-only hidden-for-medium-up">
+         <a href="project-annual-report.html" class="small-5 columns"><img src="../images/previous-button-01-01.svg" alt="next project button"></a>
+         <a href="project-tipsys-brand.html" class="small-5 columns"><img src="../images/next-button-01.svg" alt="previous project button"></a>
       </div>
       <footer>
          <div class="row">
@@ -81,10 +92,5 @@
       <script>
          $(document).foundation();
       </script>
-      <script>
-         $(".menu-link").click(function(){
-            $("#menu").toggleClass("active");
-            $(".container").toggleClass("active");
-         });
-      </script>
+   </body>
 </html>
