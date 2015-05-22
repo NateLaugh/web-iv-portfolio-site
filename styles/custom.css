@@ -1,11 +1,48 @@
 @charset "UTF-8";
 /* CSS Document */
 
+button {
+    border-style: solid;
+    background: none;
+    border-color: #AD9973;
+}
+.tablet{
+	 background-color: white;
+    position: fixed;
+    font-family: "Open Sans";
+    width: 100%;
+    z-index: 100;
+}
+.gallery{
+	margin-top:-2100px;
+}
+.black-section {
+    margin-top: 590px;
+}
+.body-inverse {
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: light;
+	font-size:13px;
+	text-align:justify;
+}
+.header-inverse {
+    color: #fff;
+	font-family: "Open Sans";
+	font-size: 27px;
+}
+a {
+    color: #000;
+}
+a:hover {
+    color: #AD9973;
+    font-family: "Open Sans";
+}
 nav ul {
     list-style-type: none;
     padding: 5px;
     margin-top: 19px;
-    width: 100%;
+    text-align: left;
 }
 .tablet {
     font-size: 14px;
@@ -13,25 +50,26 @@ nav ul {
 nav {
     background-color: white;
     position: fixed;
-    font-family: "Century Gothic";
+    font-family: "Open Sans";
     width: 100%;
     z-index: 100;
 }
 nav li {
     display: inline;
     padding: 10px;
-    width: 100%;
 }
 .social-1 {
-    margin-top: 17px;
+    margin-top: 25px;
+}
+#contact {
+    clear: both;
 }
 #about {
     padding-top: 350px;
     padding-bottom: 350px;
+    clear: both;
 }
 img {
-    margin-top: 15px;
-    margin-bottom: 15px;
     width: 100%;
 }
 .project-title {
@@ -42,11 +80,16 @@ img {
     margin-bottom: 90px;
 }
 h2 {
-    font-size: 32px;
+    font-size: 50px;
+    color: #656565;
+}
+p {
+    font-family: "Open Sans";
+    font-weight: lighter;
 }
 #work {
     clear: both;
-    /*margin-top: -2000px;*/
+    margin-top: -2690px;
 }
 .contact-icons {
     margin-top: 15px;
@@ -61,10 +104,58 @@ h2 {
     margin-top: 27px;
 }
 a .project-1:hover {
-    background-color: #BA383A;
+    background-color: #AD9973;
 }
 small {
     float: right;
+}
+
+
+#mainwrapper {
+	font: 10pt normal Arial, sans-serif;
+	text-align: center;
+	padding: 15px;
+}
+
+/* Image Box Style */
+#mainwrapper .box {
+	cursor: pointer;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	width: 300px;
+}
+#mainwrapper .box img {
+	position: absolute;
+	left: 0;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+	transition: all 300ms ease-out;
+}
+
+/** Caption 3: Fade **/
+#mainwrapper .box .fade-caption, #mainwrapper .box .scale-caption  {
+	opacity: 0;
+	width: 200px;
+	height: 200px;
+	text-align: left;
+	padding: 15px;
+}
+
+
+/** Fade Caption :hover Behaviour **/
+#mainwrapper .box:hover .fade-caption, #mainwrapper .box:hover .scale-caption  {
+	opacity: 1;
+}
+
+/** Scale Caption :hover Behaviour **/
+#mainwrapper .box:hover #image-6 {
+	-moz-transform: scale(1.4);
+	-o-transform: scale(1.4);
+	-webkit-transform: scale(1.4);
+	transform: scale(1.4);
 }
 @media only screen and (max-width: 500px) {
     .project-title {
