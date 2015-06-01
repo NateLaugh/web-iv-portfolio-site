@@ -169,8 +169,16 @@ select {
 .columns + .column:last-child, .column +
 .columns:last-child,
 .columns +
-.columns:last-child {
-  float: right; }
+
+
+
+
+.columns:last-child { 
+float:right;}
+  
+  
+  
+  
 .column + .column.end,
 .columns + .column.end, .column +
 .columns.end,

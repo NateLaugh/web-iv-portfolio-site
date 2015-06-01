@@ -11,32 +11,6 @@
 
 <body>
     <header id="home">
-        <!-- TABLET NAV -->
-        <nav class="tablet visible-for-medium-only">
-            <div class="row">
-                <div class="medium-5 medium-offset-5 columns">
-                    <ul>
-                        <li><a href="#home">HOME</a>
-                        </li>
-                        <li><a href="#work">WORK</a>
-                        </li>
-                        <li><a href="#about">ABOUT</a>
-                        </li>
-                        <li><a href="#contact">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="row social-l medium-2 columns">
-                        <a href="https://www.facebook.com/"><img src="images/social-1.svg" class="social-1 columns small-4" alt="facebook icon">
-                        </a>
-                        <a href="https://twitter.com/?lang=en"><img src="images/social-2.svg" class="social-1 columns small-4" alt="twitter icon">
-                        </a>
-                        <a href="https://instagram.com/"><img src="images/social-3.svg" class="social-1 columns small-4" alt="instagram icon">
-                        </a>
-                </div>
-            </div>
-        </nav>
-        <!-- TABLET NAV -->
         <nav>
             <div class="row visible-for-large-only">
                 <div class="medium-4 medium-offset-6 columns">
@@ -63,12 +37,14 @@
                 </div>
             </div>
         </nav>
+        <div>
         <img class="brand-heading small-12 columns" src="images/header-image.svg" alt="brand-identity" />
+        </div>
     </header>
+    <div class="black-top">
+       <img src="images/black-section.svg"/>
+   	</div>
     <section id="work" class="work">
-     <!--<div class="section-top">
-          <img class="black-section" src="images/background-black-1.svg"/>
-          </div>-->
         <div class="row">
             <div class="medium-4 medium-offset-7 columns">
                 <h2>DESIGNS WORKS</h2>
@@ -81,7 +57,7 @@
                 <a href="projects/project-ice-brand.html">
                         <img id="image-6" src="http://glenjohnsonmusic.com/site/wp-content/uploads/2011/11/250x250.jpg" alt="project-5" />
                         <span class="zoom-caption">
-                        <h3>STONEFORGE KNIVES</h3>
+                        <h3 >STONEFORGE KNIVES</h3>
 			<p class="thumb-content">STONEFORGE KNIVES</p>
 		</span></a>
                     </div>
@@ -187,15 +163,14 @@
         </div>
     </section>
     <section id="about" class="about">
-        <div class="row">
+        <div class="row clearfix">
             <img class="medium-4 columns" src="http://placehold.it/200x150/C6C4C2/000000" alt="picture of the designer in a unconventional way!"/>
-            <div class="medium-6 medium-offset-2">
-                <h2 class="header-inverse">THE DESIGNER</h2>
-                <p class="body-inverse">I am Nathan Laughlin, a midwestern born graphic designer who respects business formalism but also a realist. My strongest in design is branding, I love the idea of upadating creating an image and identity for a larger entity. Alot work is based off hard geometries and simple concepts together making most of my design work minimal and open, staying business casual. Using structure up front and keeping playful in the background.</p>
-                <p class="body-inverse">Im able to work in Adobe programs: Photoshop, InDesign, Illustrator, After Effects, Lightroom, Premiere Pro, and Dreamweaver.</p>
-            </div>
+            <div class="about-copy medium-6 columns">
+                <h2>THE DESIGNER</h2>
+                <p>I am Nathan Laughlin, a midwestern born graphic designer who respects business formalism but also a realist. My strongest in design is branding, I love the idea of upadating creating an image and identity for a larger entity. Alot work is based off hard geometries and simple concepts together making most of my design work minimal and open, staying business casual. Using structure up front and keeping playful in the background.</p>
+                <p>Im able to work in Adobe programs: Photoshop, InDesign, Illustrator, After Effects, Lightroom, Premiere Pro, and Dreamweaver.</p>
         </div>
-        </div>
+     </div>
     </section>
     <section id="contact" class="hidden-for-small-only">
         <div class="row">
@@ -211,9 +186,7 @@
                         <br>
                     </label>
                     <label>
-                       <textarea placeholder="Are you a designer&quest; &rsquo;Cause you&rsquo;re turning my descender into an ascender. I need a kick ass design, you should come design for me&hellip;NOW"></textarea>
-                        <br>
-                        <br>
+                       <textarea placeholder="DESCRIPTION"></textarea>
                     </label>
                     <a href="#" class="button">SEND MESSAGE</a>
                 </form>
@@ -233,7 +206,7 @@
             </div>
         </div>
     </section>
-    <div class="social-l visible-for-small-only small-pull-10 columns">
+    <div class="social-l visible-for-small-only small-10 columns">
         <a href="https://www.facebook.com/"><img src="images/social-1.svg" class="social-1 columns small-4" alt="facebook icon"/>
         </a>
         <a href="https://twitter.com/?lang=en"><img src="images/social-2.svg" class="social-1 columns small-4" alt="twitter icon"/>
@@ -241,18 +214,21 @@
         <a href="https://instagram.com/"><img src="images/social-3.svg" class="social-1 columns small-4 end" alt="instagram icon"/>
         </a>
     </div>
-    <footer>
-        <div class="row">
+    <div class="black-bottom">
+       <img src="images/black-footer-section.svg"/>
+   	</div>
+      <footer>
+         <div class="row copyright">
             <div class="small-12 columns">
-                <small>&copy; All rights reserved...</small>
+               <small>&copy; All rights reserved...</small>
             </div>
-        </div>
-    </footer>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-        $(document).foundation();
-    </script>
+         </div>
+      </footer>
+      <script src="js/vendor/jquery.js"></script>
+      <script src="js/foundation.min.js"></script>
+      <script>
+         $(document).foundation();
+      </script>
 </body>
 
 </html>
