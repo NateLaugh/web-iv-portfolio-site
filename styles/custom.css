@@ -7,11 +7,6 @@
 header { 
 	clear:both;
 }
-button {
-    border-style: solid;
-    background: none;
-    border-color: #AD9973;
-}
 .tablet{
 	 background-color: white;
     position: fixed;
@@ -19,10 +14,32 @@ button {
     width: 100%;
     z-index: 100;
 }
+.button {
+	width: 35%;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-right:5px;
+	padding-left: 5px;
+	border-color: #AD9973;
+	border-width:medium;
+	background-color:#fff;
+	color: #000;
+	font-family: "Open Sans" sans-serif;
+	font-weight: normal;
+	font-size:10px;
+	margin-top:17px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.button:hover {
+	background-color:#AD9973;
+	font-family: "Open Sans" sans-serif;
+	font-weight:bolder;	
+}
 .black-top {
 	clear:both;
 	width:100%;
-	padding-top:412px;
+	padding-top:515px;
 }
 .black-footer {
 	clear:both;
@@ -75,11 +92,26 @@ nav li {
     padding: 10px;
 	width:100%;
 }
-.social-1 {
-	padding: 25px;
+.facebook-icon {
+	margin-top: 26px;
 }
-#contact {
-    clear: both;
+.facebook-icon:hover {
+	margin-top: 26px;
+	opacity:0.1;
+}
+.twitter-icon {
+	margin-top: 26px;
+}
+.twitter-icon:hover {
+	margin-top: 26px;
+	opacity:0.1;
+}
+.instagram-icon {
+	margin-top: 26px;
+}
+.instagram-icon:hover {
+	margin-top: 26px;
+	opacity:0.1;
 }
 #about {
 	margin-top:70px;
@@ -95,16 +127,18 @@ img {
 .project-black-top {
 	clear:both;
 	width:100%;
-	margin-top:20px;
+	padding-top:210px;
 }
 .project-images{
-	margin-top:-1230px;
+	margin-top:-515px;
 	width:100%;
 }
 .project-image1 {
 	margin-bottom:30px;
-	padding: 15px;
 	width:100%
+}
+.project-image3 {
+	margin-top:30px;
 }
 .project-button-next{
 	padding-bottom:30px;
@@ -122,11 +156,10 @@ img {
 	margin-bottom: 25px;
 }
 .project-title {
-    margin-top: 150px;
-    font-size: 60px;
+    font-size: 24px;
     font-family: "Century Gothic";
     font-weight: bold;
-    margin-bottom: 90px;
+    margin-top: 100px;
 	text-align:center;
 }
 .copyright {
@@ -145,7 +178,7 @@ p {
     font-family: "Open Sans";
     font-weight: lighter;
 	line-height: 18px;
-	font-size:14px;
+	font-size:10px;
 }
 #work {
     clear: both;
@@ -270,8 +303,17 @@ nav li {
     padding: 10px;
 	width:100%;
 }
-.social-1 {
-    margin-top: 27px;
+.social-icon {
+	padding: 25px;
+}
+.facebook-icon {
+	margin-top: 26px;
+}
+.twitter-icon {
+	margin-top: 26px;
+}
+.instagram-icon {
+	margin-top: 26px;
 }
 #contact {
     clear: both;
@@ -474,11 +516,6 @@ h3 { z-index:96;
 header { 
 	clear:both;
 }
-button {
-    border-style: solid;
-    background: none;
-    border-color: #AD9973;
-}
 .black-top {
 	clear:both;
 	width:100%;
@@ -535,8 +572,26 @@ nav li {
     padding: 10px;
 	width:100%;
 }
-.social-1 {
-    margin-top: 27px;
+.facebook-icon {
+	margin-top: 26px;
+}
+.facebook-icon:hover {
+	margin-top: 26px;
+	opacity:0.1;
+}
+.twitter-icon {
+	margin-top: 26px;
+}
+.twitter-icon:hover {
+	margin-top: 26px;
+	opacity:0.1;
+}
+.instagram-icon {
+	margin-top: 26px;
+}
+.instagram-icon:hover {
+	margin-top: 26px;
+	opacity:0.1;
 }
 #contact {
     clear: both;
@@ -576,13 +631,18 @@ img {
 .project-content{
 	margin-bottom: 120px;
 }
-.project-title {
+.project-title h2 {
     margin-top: 150px;
     font-size: 60px;
     font-family: "Century Gothic";
     font-weight: bold;
     margin-bottom: 90px;
 	text-align:center;
+	clear:both
+}
+.project-title {
+	margin-bottom: 100px;
+	clear:both;
 }
 .copyright {
 	margin-top:-30px;
@@ -662,6 +722,26 @@ small {
 }
 h3 { z-index:96;
 }
+form .button {
+	width: 55%;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-right:5px;
+	padding-left: 5px;
+	border-color: #AD9973;
+	border-width:medium;
+	background-color:#fff;
+	color: #000;
+	font-family: "Open Sans" sans-serif;
+	font-weight: normal;
+	font-size:13px;
+	margin-top:17px;
+}
+form .button:hover {
+	background-color:#AD9973;
+	font-family: "Open Sans" sans-serif;
+	font-weight:bolder;	
+}
 .thumb-content { z-index:96;
 }
 .zoom-container {
@@ -671,9 +751,9 @@ h3 { z-index:96;
 	width: 100%;
 	font-size: 16px;
 	font-size: 1rem;
-	border: 1px solid #fff;
+/*	border: 1px solid #fff;*/
 	vertical-align: top;
-	box-sizing: border-box;
+/*	box-sizing: border-box;*/
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
@@ -702,10 +782,10 @@ h3 { z-index:96;
 }
 .zoom-container .zoom-caption h3 {
 	padding-top: 115px;
-	line-height: 21px;
+	line-height: 13px;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.5em;
+	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: -1px;
 	text-transform: uppercase;
@@ -717,6 +797,9 @@ h3 { z-index:96;
 	color:#fff;
 	opacity:1;
 	text-align: center;
+}
+.zoom-caption p {
+	font-size:14px;
 }
 .zoom-container:hover img {
 	-webkit-transform:scale(1.25); /* Safari and Chrome */
