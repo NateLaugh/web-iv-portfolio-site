@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+
 @media only screen and (max-width: 40em) {
 .brand-heading {
 	margin-bottom:100px;
@@ -7,7 +8,7 @@
 header { 
 	clear:both;
 }
-.tablet{
+.tablet {
 	 background-color: white;
     position: fixed;
     font-family: "Open Sans";
@@ -24,7 +25,7 @@ header {
 	border-width:medium;
 	background-color:#fff;
 	color: #000;
-	font-family: "Open Sans" sans-serif;
+	font-family: "Open Sans";
 	font-weight: normal;
 	font-size:10px;
 	margin-top:17px;
@@ -33,7 +34,7 @@ header {
 }
 .button:hover {
 	background-color:#AD9973;
-	font-family: "Open Sans" sans-serif;
+	font-family: "Open Sans";
 	font-weight:bolder;	
 }
 .black-top {
@@ -56,7 +57,7 @@ small {
 .body-inverse {
     color: #fff;
     font-family: "Open Sans";
-    font-weight: light;
+    font-weight: lighter;
 	font-size:13px;
 	text-align:justify;
 }
@@ -79,6 +80,7 @@ nav ul {
     text-align: left;
 	width:100%;
 }
+.mobile
 nav {
     background-color: white;
     position: fixed;
@@ -86,6 +88,7 @@ nav {
     width: 100%;
     z-index: 100;
 	clear:both;
+	margin-top:-121px;
 }
 nav li {
     display: inline;
@@ -118,7 +121,7 @@ nav li {
 	margin-bottom: 70px;
     clear: both;
 }
-.about-copy{
+.about-copy {
 	padding-top:30px;
 }
 img {
@@ -127,10 +130,11 @@ img {
 .project-black-top {
 	clear:both;
 	width:100%;
-	padding-top:210px;
+	padding-top:220px;
+	margin-bottom:-645px;
+	margin-top:120px;
 }
 .project-images{
-	margin-top:-515px;
 	width:100%;
 }
 .project-image1 {
@@ -140,34 +144,50 @@ img {
 .project-image3 {
 	margin-top:30px;
 }
-.project-button-next{
+.project-button-next {
 	padding-bottom:30px;
 	padding-right:125px;
 }
-.project-button-previous{
+.project-button-previous {
 	padding-bottom:30px;
 	padding-left:125px;
 }
-.project-info{
+.project-info {
 	margin-top: 70px;
 	margin-bottom: 60px;
 }
-.project-content{
+.project-content {
 	margin-bottom: 25px;
 }
 .project-title {
     font-size: 24px;
-    font-family: "Century Gothic";
+    font-family: "Open Sans";
     font-weight: bold;
     margin-top: 100px;
 	text-align:center;
+	margin-bottom:25px;
+}
+.project-title h2 {
+	font-size: 26px;
+}
+.back-button {
+	padding-bottom:12px;
+	padding-left:12px;
+	padding-top:12px;
+}
+.navigaton {
+	padding-top:10px;
+	padding-left:0px;
+}
+h3 {
+	font-size:18px;
 }
 .copyright {
 	margin-top:-15px;
 }
 h2 {
-	font-family: "Open Sans", sans-serif;
-    font-size: 28px;
+	font-family: "Open Sans";
+    font-size: 20px;
 	font-weight:600;
     color: #AD9973;
 	line-height: 23px;
@@ -178,7 +198,7 @@ p {
     font-family: "Open Sans";
     font-weight: lighter;
 	line-height: 18px;
-	font-size:10px;
+	font-size:9px;
 }
 #work {
     clear: both;
@@ -193,14 +213,14 @@ p {
     margin-top:-10px;
 	width: 15%;
 	padding-right: 10px;
-	padding-left: -15px;
+	/*padding-left: -15px;*/
 	float: left;
 }
 .form-icon2 {
     margin-top:21px;
 	width: 15%;
 	padding-right: 10px;
-	padding-left: -15px;
+	/*padding-left: -15px;*/
 	float: left;
 }
 .contact-email {
@@ -222,7 +242,12 @@ small {
 .thumb-content {
 	opacity: 0;
 }
+.project-image4 {
+	margin-top: 30px;
 }
+}
+
+
  
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 .brand-heading {
@@ -230,6 +255,28 @@ small {
 }
 header { 
 	clear:both;
+}
+button, .button {
+	width: 15%;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-right:5px;
+	padding-left: 5px;
+	border-color: #AD9973;
+	border-width:medium;
+	background-color:#fff;
+	color: #000;
+	font-family: "Open Sans";
+	font-weight: normal;
+	font-size: 10px;
+	margin-top:17px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+button, .button:hover {
+	background-color:#AD9973;
+	font-family: "Open Sans";
+	font-weight:bolder;	
 }
 button {
     border-style: solid;
@@ -255,7 +302,6 @@ button {
 .black-bottom {
 	 clear: both;
 	 width: 100%;
-	 margin-top: -192px;
 }
 small {
 	color:#fff;
@@ -263,7 +309,7 @@ small {
 .body-inverse {
     color: #fff;
     font-family: "Open Sans";
-    font-weight: light;
+    font-weight: lighter;
 	font-size:13px;
 	text-align:justify;
 }
@@ -282,7 +328,7 @@ a:hover {
 nav ul {
     list-style-type: none;
     padding: 5px;
-    margin-top: 19px;
+    margin-top: 5px;
     text-align: left;
 	width:100%;
 }
@@ -298,26 +344,38 @@ nav {
 	clear:both;
 }
 nav li {
-	font-size:12px;
+	font-size:10px;
     display: inline;
     padding: 10px;
 	width:100%;
 }
+.instagram-icon:hover {
+	margin-top: 20px;
+	opacity:0.1;
+}
+.facebook-icon:hover {
+	margin-top: 20px;
+	opacity:0.1;
+}
+.twitter-icon:hover {
+	margin-top: 20px;
+	opacity:0.1;
+}
 .social-icon {
-	padding: 25px;
+	padding: 20px;
 }
 .facebook-icon {
-	margin-top: 26px;
+	margin-top: 20px;
 }
 .twitter-icon {
-	margin-top: 26px;
+	margin-top: 20px;
 }
 .instagram-icon {
-	margin-top: 26px;
+	margin-top: 20px;
 }
 #contact {
     clear: both;
-	margin-bottom:280px;
+	margin-bottom:70px;
 }
 #about {
 	margin-top:280px;
@@ -330,54 +388,52 @@ img {
 .project-black-top {
 	clear:both;
 	width:100%;
-	margin-top:20px;
 }
-.project-images{
-	margin-top:-1230px;
+.project-images {
+	margin-top:-400px;
 }
 .project-image1 {
 	margin-bottom:30px;
 }
-.project-button-next{
+.project-button-next {
 	padding-bottom:30px;
 	padding-right:125px;
 }
-.project-button-previous{
+.project-button-previous {
 	padding-bottom:30px;
 	padding-left:125px;
 }
-.project-info{
+.project-info {
 	margin-top: 70px;
 	margin-bottom: 60px;
 }
-.project-content{
-	margin-bottom: 120px;
+.project-content {
+	margin-bottom: 25px;
 }
 .project-title {
     margin-top: 150px;
     font-size: 60px;
-    font-family: "Century Gothic";
+    font-family: "Open Sans";
     font-weight: bold;
     margin-bottom: 90px;
 	text-align:center;
 }
 .copyright {
-	margin-top:-30px;
+	font-size:10px;
+	margin-top:-25px;
 }
 h2 {
-	font-family: "Open Sans", sans-serif;
-    font-size: 37.5px;
+	font-family: "Open Sans";
+    font-size: 28px;
 	font-weight:600;
     color: #AD9973;
-	line-height: 50px;
 	width:100%;
-	margin-top:-12px;
+	margin-top:-8px;
 }
 p {
     font-family: "Open Sans";
     font-weight: lighter;
-	line-height: 19px;
-	font-size:14px;
+	font-size:11px;
 }
 #work {
     clear: both;
@@ -385,34 +441,52 @@ p {
 	margin-top:-1618px;
 }
 .contact-icons { 
-	padding-top: 57px;
+	/*padding-top: 57px;*/
+	margin-left:57px;
 }
-
+.contact-cell{
+	margin-top:9px;
+}
 .form-icon1 {
     margin-top:-10px;
 	width: 15%;
 	padding-right: 10px;
-	padding-left: -15px;
+/*	padding-left: -15px;*/
 	float: left;
-}
-.about-copy{
-	margin-left:-70px;
 }
 .form-icon2 {
     margin-top:21px;
 	width: 15%;
 	padding-right: 10px;
-	padding-left: -15px;
+	/*padding-left: -15px;*/
 	float: left;
 }
-.contact-email {
-	padding-right: 16px;
+form .button {
+	width: 60%;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-right:5px;
+	padding-left: 5px;
+	border-color: #AD9973;
+	border-width:medium;
+	background-color:#fff;
+	color: #000;
+	font-family: "Open Sans";
+	font-weight: normal;
+	font-size:13px;
+	margin-top:17px;
+	margin-left:0px;
 }
-.email { 
-	padding-top: 5px;
+form .button:hover {
+	background-color:#AD9973;
+	font-family: "Open Sans";
+	font-weight:bolder;	
+}
+.email {
+	font-size:10px;
 }
 .phone { 
-	padding-top: 35px;
+	padding-top: 28px;
 }
 a .project-1:hover {
     background-color: #AD9973;
@@ -428,8 +502,8 @@ small {
 /** Caption 3: Fade **/
 .zoom-caption {
 	opacity: .9;
-	width: 100%px;
-	height: 100%px;
+	width: 100%;
+	height: 100%;
 	text-align: left;
 	padding: 15px;
 }
@@ -481,11 +555,10 @@ h3 { z-index:96;
         transition: all .5s ease;
 }
 .zoom-container .zoom-caption h3 {
-	padding-top: 115px;
-	line-height: 21px;
+	padding-top: 50px;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.5em;
+	font-family: 'Open Sans';
+	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: -1px;
 	text-transform: uppercase;
@@ -498,6 +571,10 @@ h3 { z-index:96;
 	opacity:1;
 	text-align: center;
 }
+.zoom-container:hover .zoom-caption p {
+	font-size:8px;
+	padding-top:0px;
+}
 .zoom-container:hover img {
 	-webkit-transform:scale(1.25); /* Safari and Chrome */
         -moz-transform:scale(1.25); /* Firefox */
@@ -508,10 +585,20 @@ h3 { z-index:96;
 .zoom-container:hover .zoom-caption {
 	background-color: #AD9973;
 }
+.project-image4 {
+	margin-top: 30px;
 }
+}
+
+
+
+
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
 .brand-heading {
 	margin-bottom:280px;
+}
+.project-image4 {
+	margin-top: 30px;
 }
 header { 
 	clear:both;
@@ -528,7 +615,6 @@ header {
 .black-bottom {
 	 clear: both;
 	 width: 100%;
-	 margin-top: -192px;
 }
 small {
 	color:#fff;
@@ -536,7 +622,7 @@ small {
 .body-inverse {
     color: #fff;
     font-family: "Open Sans";
-    font-weight: light;
+    font-weight: lighter;
 	font-size:13px;
 	text-align:justify;
 }
@@ -566,6 +652,7 @@ nav {
     width: 100%;
     z-index: 100;
 	clear:both;
+	/*margin: 0px;*/
 }
 nav li {
     display: inline;
@@ -595,7 +682,6 @@ nav li {
 }
 #contact {
     clear: both;
-	margin-bottom:280px;
 }
 #about {
 	margin-top:280px;
@@ -610,31 +696,31 @@ img {
 	width:100%;
 	margin-top:20px;
 }
-.project-images{
+.project-images {
 	margin-top:-1230px;
 }
 .project-image1 {
 	margin-bottom:30px;
 }
-.project-button-next{
+.project-button-next {
 	padding-bottom:30px;
 	padding-right:125px;
 }
-.project-button-previous{
+.project-button-previous {
 	padding-bottom:30px;
 	padding-left:125px;
 }
-.project-info{
+.project-info {
 	margin-top: 70px;
 	margin-bottom: 60px;
 }
-.project-content{
-	margin-bottom: 120px;
+.project-content {
+	margin-bottom: 25px;
 }
 .project-title h2 {
     margin-top: 150px;
     font-size: 60px;
-    font-family: "Century Gothic";
+    font-family: "Open Sans";
     font-weight: bold;
     margin-bottom: 90px;
 	text-align:center;
@@ -648,7 +734,7 @@ img {
 	margin-top:-30px;
 }
 h2 {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans";
     font-size: 37.5px;
 	font-weight:600;
     color: #AD9973;
@@ -675,14 +761,14 @@ p {
     margin-top:-10px;
 	width: 15%;
 	padding-right: 10px;
-	padding-left: -15px;
+	/*padding-left: -15px;*/
 	float: left;
 }
 .form-icon2 {
     margin-top:21px;
 	width: 15%;
 	padding-right: 10px;
-	padding-left: -15px;
+	/*padding-left: -15px;*/
 	float: left;
 }
 .contact-email {
@@ -708,8 +794,8 @@ small {
 /** Caption 3: Fade **/
 .zoom-caption {
 	opacity: .9;
-	width: 100%px;
-	height: 100%px;
+	width: 100%;
+	height: 100%;
 	text-align: left;
 	padding: 15px;
 }
@@ -732,15 +818,19 @@ form .button {
 	border-width:medium;
 	background-color:#fff;
 	color: #000;
-	font-family: "Open Sans" sans-serif;
+	font-family: "Open Sans";
 	font-weight: normal;
 	font-size:13px;
 	margin-top:17px;
+	margin-left:0;
 }
 form .button:hover {
 	background-color:#AD9973;
-	font-family: "Open Sans" sans-serif;
+	font-family: "Open Sans";
 	font-weight:bolder;	
+}
+.title { 
+clear:both
 }
 .thumb-content { z-index:96;
 }
@@ -757,6 +847,7 @@ form .button:hover {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
+
 .zoom-container img {
 	display: block;
 	width: 100%;
@@ -784,7 +875,7 @@ form .button:hover {
 	padding-top: 115px;
 	line-height: 13px;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans';
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: -1px;
@@ -810,5 +901,27 @@ form .button:hover {
 }
 .zoom-container:hover .zoom-caption {
 	background-color: #AD9973;
+}
+button, .button {
+	width: 15%;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-right:5px;
+	padding-left: 5px;
+	border-color: #AD9973;
+	border-width:medium;
+	background-color:#fff;
+	color: #000;
+	font-family: "Open Sans";
+	font-weight: normal;
+	font-size: 13px;
+	margin-top:17px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+button, .button:hover {
+	background-color:#AD9973;
+	font-family: "Open Sans";
+	font-weight: bolder;	
 }
 }
