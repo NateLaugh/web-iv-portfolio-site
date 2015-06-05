@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1440 2577" enable-background="new 0 0 1440 2577" xml:space="preserve">
+<g>
+	<g>
+		<defs>
+			<polygon id="SVGID_1_" points="0,1681.079 1439.091,1802.513 1439.091,98.351 0,161.032 			"/>
+		</defs>
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+	</g>
+</g>
+<line fill="none" stroke="#AD9973" stroke-width="11.4021" stroke-miterlimit="10" x1="555.624" y1="107.965" x2="1439.091" y2="73"/>
+<line fill="none" stroke="#000000" stroke-width="5.701" stroke-miterlimit="10" x1="396.424" y1="117.409" x2="0" y2="136.298"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="7.1929" stroke-miterlimit="10" x1="1171.622" y1="147.765" x2="867.277" y2="161.032"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="5.7544" stroke-miterlimit="10" x1="0" y1="1652.541" x2="553.15" y2="1699.873"/>
+<polygon fill="#AD9973" points="1439.091,1826.244 1084.49,1794.089 1083.028,1802.409 1439.091,1835.8 "/>
+<line fill="none" stroke="#FFFFFF" stroke-width="7.1929" stroke-miterlimit="10" x1="1149.474" y1="1744.957" x2="1391.421" y2="1764.97"/>
+<polyline fill="#AD9973" points="30.581,1713.59 30.581,1704.483 209.343,1722.022 208.893,1731.578 "/>
+<g>
+	<g>
+		<defs>
+			<polygon id="SVGID_3_" points="0,2366.544 1439.091,2487.979 1439.091,783.816 0,846.497 			"/>
+		</defs>
+		<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  overflow="visible"/>
+		</clipPath>
+	</g>
+</g>
+<line fill="none" stroke="#FFFFFF" stroke-width="5.7544" stroke-miterlimit="10" x1="0" y1="2338.006" x2="553.15" y2="2385.339"/>
+<polygon fill="#AD9973" points="1439.091,2511.709 1084.49,2479.554 1083.028,2487.874 1439.091,2521.265 "/>
+<line fill="none" stroke="#FFFFFF" stroke-width="7.1929" stroke-miterlimit="10" x1="1149.474" y1="2430.423" x2="1391.421" y2="2450.435"/>
+<polyline fill="#AD9973" points="30.581,2399.055 30.581,2389.948 209.343,2407.487 208.893,2417.044 "/>
+</svg>

@@ -11,21 +11,21 @@ header {
 .tablet {
 	 background-color: white;
     position: fixed;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     width: 100%;
     z-index: 100;
 }
 .button {
 	width: 35%;
-	padding-top:15px;
-	padding-bottom:15px;
+	padding-top:20px;
+	padding-bottom:20px;
 	padding-right:5px;
 	padding-left: 5px;
 	border-color: #AD9973;
 	border-width:medium;
 	background-color:#fff;
 	color: #000;
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
 	font-weight: normal;
 	font-size:10px;
 	margin-top:17px;
@@ -34,13 +34,13 @@ header {
 }
 .button:hover {
 	background-color:#AD9973;
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
 	font-weight:bolder;	
 }
 .black-top {
 	clear:both;
 	width:100%;
-	padding-top:515px;
+	padding-top:42em;
 }
 .black-footer {
 	clear:both;
@@ -63,15 +63,15 @@ small {
 }
 .header-inverse {
     color: #fff;
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
 	font-size: 27px;
 }
 a {
-    color: #000;
+    color: #fff;
 }
 a:hover {
-    color: #AD9973;
-    font-family: "Open Sans";
+    color: #fff;
+    font-family: 'Open Sans';
 }
 nav ul {
     list-style-type: none;
@@ -80,11 +80,10 @@ nav ul {
     text-align: left;
 	width:100%;
 }
-.mobile
 nav {
     background-color: white;
     position: fixed;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     width: 100%;
     z-index: 100;
 	clear:both;
@@ -156,12 +155,26 @@ img {
 	margin-top: 70px;
 	margin-bottom: 60px;
 }
+.project-info h3 {
+		color: #AD9973;
+	font-size:1.2em;
+	font-family: 'Open Sans';
+	font-weight:600;
+	padding-bottom:.01em;
+}
+.project-info p {
+	color: #000;
+	font-size:.8em;
+	font-family: 'Open Sans';
+	font-weight:lighter;
+	padding-bottom:50px;
+}
 .project-content {
 	margin-bottom: 25px;
 }
 .project-title {
     font-size: 24px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-weight: bold;
     margin-top: 100px;
 	text-align:center;
@@ -180,25 +193,25 @@ img {
 	padding-left:0px;
 }
 h3 {
-	font-size:18px;
+	font-size:1.2em;
 }
 .copyright {
 	margin-top:-15px;
 }
 h2 {
-	font-family: "Open Sans";
-    font-size: 20px;
-	font-weight:600;
+	font-family: 'Open Sans';
+    font-size: 2.2em;
+	font-weight:bold;
     color: #AD9973;
 	line-height: 23px;
 	width:100%;
 	margin-top:-12px;
 }
 p {
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-weight: lighter;
 	line-height: 18px;
-	font-size:9px;
+	font-size:0.7em;
 }
 #work {
     clear: both;
@@ -239,14 +252,43 @@ small {
     float: right;
 }
 
-.thumb-content {
-	opacity: 0;
-}
 .project-image4 {
 	margin-top: 30px;
 }
+.zoom-caption a:hover {
+	display:none;
 }
-
+.zoom-caption p {
+	color: #000;
+	line-height:0.1em;
+	padding-bottom:50px;
+	font-size:.8em;
+	font-family: 'Open Sans';
+	font-weight:lighter;
+}
+.zoom-caption h3 {
+	color: #AD9973;
+	font-size:1.2em;
+	font-family: 'Open Sans';
+	font-weight:600;
+	padding-bottom:.01em;
+}
+.info p {
+	color: #000;
+	font-size:.7em;
+	font-family: 'Open Sans';
+	font-weight:lighter;
+	padding-right:70px;
+	padding-bottom:50px;
+}
+.info h3 {
+	color: #AD9973;
+	font-size:1.2em;
+	font-family: 'Open Sans';
+	font-weight:600;
+	padding-bottom:.01em;
+}
+}
 
  
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
@@ -266,7 +308,7 @@ button, .button {
 	border-width:medium;
 	background-color:#fff;
 	color: #000;
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
 	font-weight: normal;
 	font-size: 10px;
 	margin-top:17px;
@@ -275,7 +317,7 @@ button, .button {
 }
 button, .button:hover {
 	background-color:#AD9973;
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
 	font-weight:bolder;	
 }
 button {
@@ -286,7 +328,7 @@ button {
 .tablet{
 	 background-color: white;
     position: fixed;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     width: 100%;
     z-index: 100;
 }
@@ -308,14 +350,14 @@ small {
 }
 .body-inverse {
     color: #fff;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-weight: lighter;
 	font-size:13px;
 	text-align:justify;
 }
 .header-inverse {
     color: #fff;
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
 	font-size: 27px;
 }
 a {
@@ -323,7 +365,7 @@ a {
 }
 a:hover {
     color: #AD9973;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
 }
 nav ul {
     list-style-type: none;
@@ -338,12 +380,12 @@ nav ul {
 nav {
     background-color: white;
     position: fixed;
-    font-family: "Open Sans";
     width: 100%;
     z-index: 100;
 	clear:both;
 }
 nav li {
+	font-family: 'Open Sans';
 	font-size:10px;
     display: inline;
     padding: 10px;
@@ -361,8 +403,11 @@ nav li {
 	margin-top: 20px;
 	opacity:0.1;
 }
+.small-3 {
+	width:20%;
+}
 .social-icon {
-	padding: 20px;
+	padding: 40px;
 }
 .facebook-icon {
 	margin-top: 20px;
@@ -377,6 +422,10 @@ nav li {
     clear: both;
 	margin-bottom:70px;
 }
+#contact-tablet {
+    clear: both;
+	margin-bottom:70px;
+}
 #about {
 	margin-top:280px;
 	margin-bottom:280px;
@@ -388,9 +437,10 @@ img {
 .project-black-top {
 	clear:both;
 	width:100%;
+    padding-top:600px;
 }
 .project-images {
-	margin-top:-400px;
+	margin-top:-1040px;
 }
 .project-image1 {
 	margin-bottom:30px;
@@ -410,11 +460,13 @@ img {
 .project-content {
 	margin-bottom: 25px;
 }
-.project-title {
-    margin-top: 150px;
-    font-size: 60px;
-    font-family: "Open Sans";
-    font-weight: bold;
+.title {
+}
+.project-title h2 {
+    margin-top: -1200px;
+    font-size: 50px;
+    font-family: 'Open Sans';
+    font-weight: bolder;
     margin-bottom: 90px;
 	text-align:center;
 }
@@ -423,7 +475,7 @@ img {
 	margin-top:-25px;
 }
 h2 {
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
     font-size: 28px;
 	font-weight:600;
     color: #AD9973;
@@ -431,7 +483,7 @@ h2 {
 	margin-top:-8px;
 }
 p {
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-weight: lighter;
 	font-size:11px;
 }
@@ -445,7 +497,10 @@ p {
 	margin-left:57px;
 }
 .contact-cell{
-	margin-top:9px;
+	margin-top:28px;
+}
+.contact-email{
+	margin-top:50px;
 }
 .form-icon1 {
     margin-top:-10px;
@@ -471,7 +526,7 @@ form .button {
 	border-width:medium;
 	background-color:#fff;
 	color: #000;
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
 	font-weight: normal;
 	font-size:13px;
 	margin-top:17px;
@@ -479,7 +534,7 @@ form .button {
 }
 form .button:hover {
 	background-color:#AD9973;
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
 	font-weight:bolder;	
 }
 .email {
@@ -588,6 +643,13 @@ h3 { z-index:96;
 .project-image4 {
 	margin-top: 30px;
 }
+.zoom-caption p {
+	opacity: 0;
+}
+.row{
+	padding-left:1.5em;
+	padding-right:1.5em;
+}
 }
 
 
@@ -621,14 +683,14 @@ small {
 }
 .body-inverse {
     color: #fff;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-weight: lighter;
 	font-size:13px;
 	text-align:justify;
 }
 .header-inverse {
     color: #fff;
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
 	font-size: 27px;
 }
 a {
@@ -636,7 +698,7 @@ a {
 }
 a:hover {
     color: #AD9973;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
 }
 nav ul {
     list-style-type: none;
@@ -648,7 +710,7 @@ nav ul {
 nav {
     background-color: white;
     position: fixed;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     width: 100%;
     z-index: 100;
 	clear:both;
@@ -717,10 +779,24 @@ img {
 .project-content {
 	margin-bottom: 25px;
 }
+.project-info h3 {
+		color: #AD9973;
+	font-size:1.2em;
+	font-family: 'Open Sans';
+	font-weight:600;
+	padding-bottom:.01em;
+}
+.project-info p {
+	color: #000;
+	font-size:.8em;
+	font-family: 'Open Sans';
+	font-weight:lighter;
+	padding-bottom:50px;
+}
 .project-title h2 {
     margin-top: 150px;
     font-size: 60px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-weight: bold;
     margin-bottom: 90px;
 	text-align:center;
@@ -734,7 +810,7 @@ img {
 	margin-top:-30px;
 }
 h2 {
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
     font-size: 37.5px;
 	font-weight:600;
     color: #AD9973;
@@ -743,7 +819,7 @@ h2 {
 	margin-top:-12px;
 }
 p {
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-weight: lighter;
 	line-height: 22px;
 	font-size:14px;
@@ -771,8 +847,11 @@ p {
 	/*padding-left: -15px;*/
 	float: left;
 }
+.contact-cell {
+	margin-top:-5px;
+}
 .contact-email {
-	padding-right: 16px;
+	margin-top:50px;
 }
 .email { 
 	padding-top: 5px;
@@ -809,7 +888,7 @@ small {
 h3 { z-index:96;
 }
 form .button {
-	width: 55%;
+	width: 40%;
 	padding-top:10px;
 	padding-bottom: 10px;
 	padding-right:5px;
@@ -818,7 +897,7 @@ form .button {
 	border-width:medium;
 	background-color:#fff;
 	color: #000;
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
 	font-weight: normal;
 	font-size:13px;
 	margin-top:17px;
@@ -826,7 +905,7 @@ form .button {
 }
 form .button:hover {
 	background-color:#AD9973;
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
 	font-weight:bolder;	
 }
 .title { 
@@ -878,7 +957,6 @@ clear:both
 	font-family: 'Open Sans';
 	font-size: 20px;
 	font-weight: 600;
-	letter-spacing: -1px;
 	text-transform: uppercase;
 	color: #fff;
 	opacity: 0;
@@ -921,7 +999,13 @@ button, .button {
 }
 button, .button:hover {
 	background-color:#AD9973;
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
 	font-weight: bolder;	
+}
+.zoom-caption p {
+	opacity: 0;
+}
+.blacktop {
+	background-image:url(../images/black-section.svg);
 }
 }
