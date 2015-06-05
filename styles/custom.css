@@ -376,7 +376,8 @@ a:hover {
 nav ul {
     list-style-type: none;
     padding: 5px;
-    margin-top: 5px;
+	margin-right:5px;
+    margin-top: 10px;
     text-align: left;
 	width:100%;
 }
@@ -392,10 +393,11 @@ nav {
 }
 nav li {
 	font-family: 'Open Sans';
-	font-size:10px;
+	font-size:13px;
     display: inline;
     padding: 10px;
 	width:100%;
+	text-align:right;
 }
 .instagram-icon:hover {
 	margin-top: 20px;
