@@ -40,7 +40,10 @@ header {
 .black-top {
 	clear:both;
 	width:100%;
-	padding-top:42em;
+	padding-top:35em;
+}
+.copyright{
+	font-size:.05em
 }
 .black-footer {
 	clear:both;
@@ -65,6 +68,9 @@ small {
     color: #fff;
 	font-family: 'Open Sans';
 	font-size: 27px;
+}
+small {
+	font-size:7px;
 }
 a {
     color: #fff;
